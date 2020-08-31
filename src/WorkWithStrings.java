@@ -1,6 +1,8 @@
 public class WorkWithStrings {
     public static void main(String[] args) {
         String helloWrld = " Hello World ";
+        int length = helloWrld.length();
+        System.out.println(length);
         String repeatString;
         System.out.println(helloWrld);
         System.out.println(helloWrld.toUpperCase());
